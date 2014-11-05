@@ -13,8 +13,8 @@ Name			| Description
 **&jsSources**		| list of JS files for handling. «\*.js» и «\*.coffee» can be indicated.
 **&minifyCss**		| initiate CSS modification?
 **&minifyJs**		| initiate JS modification?
-**&registerCss**	| connection of css: can be saved in placeholder «placeholder» or activated in tag <head\> - «default».
-**&registerJs**		| connection of javascript: can be saved in placeholder «placeholder», activated in tag <head\> - «startup» or place before closing <body\> - «default».
+**&registerCss**	| connection of css: can be saved in placeholder «placeholder» or activated in tag <head\> - «default» or return file url - «string».
+**&registerJs**		| connection of javascript: can be saved in placeholder «placeholder», activated in tag <head\> - «startup» or place before closing <body\> - «default» or return file url - «string».
 
 ## Samples
 Output of snippet with auto style registration before </head\> and scripts before </body\>:
