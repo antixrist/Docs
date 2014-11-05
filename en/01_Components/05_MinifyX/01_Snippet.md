@@ -15,6 +15,9 @@ Name			| Description
 **&minifyJs**		| initiate JS modification?
 **&registerCss**	| connection of css: can be saved in placeholder «placeholder» or activated in tag <head\> - «default».
 **&registerJs**		| connection of javascript: can be saved in placeholder «placeholder», activated in tag <head\> - «startup» or place before closing <body\> - «default».
+**&cssOutputType**	| If **&registerCss=\`placeholder\`** and **&cssOutputType=\`string\`** then value of placeholder will be set to string with url to result file.
+**&оыOutputType**	| If **&registerJs=\`placeholder\`** and **&jsOutputType=\`string\`**, then value of placeholder will be set to string with url to result file.
+
 
 ## Samples
 Output of snippet with auto style registration before </head\> and scripts before </body\>:
